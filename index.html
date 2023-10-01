@@ -64,6 +64,13 @@
         padding-left: 20px;
         padding-right: 20px;
   }
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      background-color: #FFFFFF;
+      padding: 10px;
+}
 
   .disclaimerbox {
     background-color: #eee;
@@ -276,7 +283,7 @@
           <p style="text-align:justify; text-justify:inter-ideograph;"><left></left>
           We present an innovative and <strong>automatic</strong> audio caption generation pipeline(<strong>*</strong>), construct a large-scale, high-quality, audio-language dataset, named as <strong>Auto-ACD</strong>, comprising over <strong>1.9M </strong> audio-text pairs. 
           As shown in the left figure, The text descriptions in Auto-ACD contain <strong>long texts (18 words)</strong> and <strong>diverse vocabularies (23K)</strong>, and provide information about the <strong>surrounding auditory environment</strong>(data point with <strong>shadow</strong>) in which sounds take place.
-        </left></p>
+        </left></p>  
       </div>
       </left></p>
       <hr>
@@ -284,7 +291,127 @@
 
 
       <center> <h2> Preview </h2> </center>
-      <p><img class="left" src="./resources/samples.png" width="800px"></p>
+       <div class="grid-container">
+        <div>
+          <video width="250"  controls>
+            <source src="resources/D6_A50my-R8_000002.mp4" type="video/mp4">
+            <source src="resources/D6_A50my-R8_000002.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                A singing bowl resonates with a gentle gong sound, accompanied by soft music playing in a church.
+            </left></p>
+          </div>
+        </div>
+        
+        <div>
+          <video width="250"  controls>
+            <source src="resources/nKtGjo-9p4M_000030.mp4" type="video/mp4">
+            <source src="resources/nKtGjo-9p4M_000030.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                A melodic accordion tune fills the air as the musician plays in a music studio, creating a pleasant ambiance.
+            </left></p>
+          </div>
+        </div>
+
+        <div>
+          <video width="250"  controls>
+            <source src="resources/boWKyNs9gQs_000140.mp4" type="video/mp4">
+            <source src="resources/boWKyNs9gQs_000140.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                A train horn blares as a train approaches, creating a loud and powerful sound in a railway environment.
+            </left></p>
+          </div>
+        </div>
+
+        <div>
+          <video width="250"  controls>
+            <source src="resources/BPyI5tsSgLA_000228.mp4" type="video/mp4">
+            <source src="resources/BPyI5tsSgLA_000228.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                Rain falls hard on a surface as people talk in the distance, creating a soothing ambiance of a rainy day.
+            </left></p>
+          </div>
+        </div>
+        
+        <div>
+          <video width="250"  controls>
+            <source src="resources/d5itsbzJF3s_000030.mp4" type="video/mp4">
+            <source src="resources/d5itsbzJF3s_000030.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                Sheep bleat in the distance as people talk faintly, creating a pastoral atmosphere in a wheat field.
+            </left></p>
+          </div>
+        </div>
+
+        <div>
+          <video width="250"  controls>
+            <source src="resources/68v05KO6CVg_000021.mp4" type="video/mp4">
+            <source src="resources/68v05KO6CVg_000021.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                An emergency vehicle siren blares loudly as a fire engine speeds through the city streets, signaling an urgent situation.
+            </left></p>
+          </div>
+        </div>
+
+        <div>
+          <video width="250"  controls>
+            <source src="resources/rQwOIwziqwk_000100.mp4" type="video/mp4">
+            <source src="resources/rQwOIwziqwk_000100.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                The motorcycle engine revs up and down while driving through a residential neighborhood, accompanied by some speech and light engine sounds.
+            </left></p>
+          </div>
+        </div>
+        
+        <div>
+          <video width="250"  controls>
+            <source src="resources/hel2rE-Ju_Y_000031.mp4" type="video/mp4">
+            <source src="resources/hel2rE-Ju_Y_000031.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                Bird wings flap as rustling and birds chirping in the background create a serene ambiance in a garden.
+            </left></p>
+          </div>
+        </div>
+
+        <div>
+          <video width="250"  controls>
+            <source src="resources/0MrdMvs6J2o_000001.mp4" type="video/mp4">
+            <source src="resources/0MrdMvs6J2o_000001.ogg" type="video/ogg">
+          </video>
+          <div class="text" width="270px"> 
+            <p style="text-align:justify; text-justify:inter-ideograph;">
+              <left>
+                A roaring crowd erupts in cheers and battle cries, creating an electrifying atmosphere during a lively event.
+            </left></p>
+          </div>
+        </div>
+
+          </video>
+        </div> 
+    </div>
       <br>
       <hr>
       <br>
