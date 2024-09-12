@@ -1,6 +1,5 @@
-@article{sun2023autoacd,
-  title={A Large-scale Dataset for Audio-Language Representation Learning}, 
+@inproceedings{sun2024auto,
+  title={Auto-ACD: A Large-scale Dataset for Audio-Language Representation Learning},
   author={Sun, Luoyi and Xu, Xuenan and Wu, Mengyue and Xie, Weidi},
-  journal = {arXiv:2309.11500},
-  year={2023}
+  booktitle={ACM Multimedia 2024}
 }
